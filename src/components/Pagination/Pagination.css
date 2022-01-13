@@ -1,0 +1,32 @@
+li {
+    list-style-type: none;
+}
+.pagination {
+    margin-bottom: 2rem;
+}
+.pagination__numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number__button {
+    padding:0.3rem 0.8rem;
+    font-size: 1.5rem;
+    background-color: #f73859;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 0.6rem;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.number__button:active {
+    transform: scale(0.90);
+}
+
+.number__button:hover {
+    background-color: black;
+    color: #f73859;
+}

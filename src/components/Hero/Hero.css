@@ -1,0 +1,55 @@
+.hero {
+    width: 13rem;
+    height: 30rem;
+    background-color:  #f73859;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero__image img {
+    object-fit: cover;
+    width: 100%;
+    height: 15rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.hero__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.hero__name {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hero__bookmarkBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero__bookmarkBtn button {
+    background-color: #ededed;
+    padding:0.5rem 0.8rem;
+    font-size: 1.2rem;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.hero__bookmarkBtn button:hover {
+    background-color: rgb(41, 224, 41);
+    border-color: black;
+}
+
+.hero__bookmarkBtn button:active {
+    transform: scale(0.90);
+}
+

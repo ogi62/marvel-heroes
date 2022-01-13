@@ -1,0 +1,19 @@
+.heroes {
+    padding: 5rem 0rem 10rem 0rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+@media (max-width: 990px) {
+    .heroes{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 660px) {
+    .heroes{
+        grid-template-columns: 1fr;
+    }
+}
